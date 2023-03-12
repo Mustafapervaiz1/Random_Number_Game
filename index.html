@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <link rel="stylesheet" href="main.css">
+    <title>gussing game</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="first">
+            <button>Again!</button>
+            <P>Between 1 and 10</P>
+        </div>
+        <div>
+            <H1>Guess My Number!</H1>
+        </div>
+        <div class="query"><button id="extra_btn"> This is Random Number ></button>
+            <h1 class="mark" id="genrate_num"></h1>
+            <hr>
+        </div>
+        <div class="last">
+            <div class="this"><input type="number" id="userinput">
+                <span class="btn"><button id="check" onclick="final_result()">check!</button></span>
+            
+            </div>
+            <div class="second">     <h2>Start Gussing....</h2> 
+                
+                <ul>
+                    <li id="total_try">Total Try : 20 </li>
+                    <li id="Highscore">Left : 0 </li>
+                </ul>
+
+
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="mob.js"></script>
+</body>
+</html>
